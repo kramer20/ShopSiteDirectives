@@ -1,0 +1,19 @@
+p {
+	margin-bottom:30px;
+	margin-top:10px;
+}
+
+a.listLink {
+	text-decoration:none;
+	font-family:$accent-font;
+	font-size:30px;
+	margin:0 auto;
+	background-color: white;
+	border:3px solid $border-color;
+	border-radius:2px;
+	padding:6px;
+	color:$main-fontColor;
+	&:hover {
+		color:lighten(#A3A68B,10);
+	}
+}

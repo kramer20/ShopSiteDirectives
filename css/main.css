@@ -1,0 +1,124 @@
+img {
+  width: 300px;
+  border: 3px solid #E2FF0A;
+  border-radius: 2px;
+  margin: 0 auto;
+  display: block; }
+
+p {
+  text-align: center; }
+
+a.detailLink {
+  text-decoration: none;
+  font-family: "Delius", cursive;
+  font-size: 25px;
+  color: #555746; }
+  a.detailLink:hover {
+    color: #A3A68B; }
+
+p {
+  margin-bottom: 30px;
+  margin-top: 10px; }
+
+a.listLink {
+  text-decoration: none;
+  font-family: "Delius", cursive;
+  font-size: 30px;
+  margin: 0 auto;
+  background-color: white;
+  border: 3px solid #E2FF0A;
+  border-radius: 2px;
+  padding: 6px;
+  color: #555746; }
+  a.listLink:hover {
+    color: #babca8; }
+
+.content {
+  background: #e8e8e2; }
+
+.header {
+  background-image: url("../images/bobsBike3.png");
+  border-bottom: 3px solid #E2FF0A;
+  background-color: #f3f3f0; }
+
+img.bikeIcon {
+  width: 174px;
+  border-radius: 100px;
+  transform: rotate(-22deg);
+  margin-top: 10px;
+  margin: 0 auto;
+  z-index: 1;
+  background-color: #e8e8e2; }
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #555746;
+  text-align: center;
+  position: relative;
+  margin-top: -118px;
+  z-index: 99999; }
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 45px;
+  color: #555746; }
+
+h3 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #555746; }
+
+ul.topNav {
+  display: inline-block; }
+  ul.topNav li {
+    display: inline-block;
+    margin: 0 auto; }
+    ul.topNav li a {
+      text-decoration: none;
+      font-size: 25px;
+      font-family: "Delius", cursive;
+      color: #555746;
+      margin-left: 25px; }
+      ul.topNav li a:hover {
+        color: #C8E010;
+        background-color: #babca8;
+        padding: 7px;
+        border-radius: 2px; }
+
+img.featuredBike {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  border: 3px solid #E2FF0A;
+  border-radius: 2px; }
+
+p.featuredBikeList {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Delius", cursive;
+  color: #555746;
+  margin-top: 10px; }
+
+.footer {
+  background-image: url("../images/bobsBike3.png");
+  border-top: 3px solid #E2FF0A;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  background-color: #f3f3f0; }
+  .footer small {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #555746; }
+
+input {
+  max-width: 400px;
+  font-family: "Delius", cursive;
+  float: right; }
+
+span {
+  float: right; }

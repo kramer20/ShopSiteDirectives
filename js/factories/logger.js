@@ -2,22 +2,21 @@
 	'use strict';
 	angular
 		.module('shopSite')
-		 .factory('API', function($http) {
-
-		 	var token = '7cf16558d759d14815306832bd7341e2';
+		.factory('API', function($http) {
 
 
-		 	function getWeather()
+		 	function getWeather(city)
 		 	{
 		 		var call = $http({
 		          method: 'GET',
-		          headers: {
-		            X_CSRF_TOKEN:token,
-		          },
-		          url: `http://api.openweathermap.org/data/2.5/weather?q=%24%7Bcity%7D&APPID&units=imperia`
+		          url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=7cf16558d759d14815306832bd7341e2&units=imperial`,
 		        });
-
+		 		
 		        return call;
 		 	}
+
+		 	 return {
+		 	 	getWeather:getWeather,
+		 	 }
 		 })	
 })();

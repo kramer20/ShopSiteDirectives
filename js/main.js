@@ -21,9 +21,6 @@
 		      'search': {
 		        templateUrl: '../views/partials/search.html',
 		      },
-		       'footer': {
-		        templateUrl: '../views/partials/footer.html',
-		      },
 		  },
 	    })
 	    .state('category', {
@@ -36,9 +33,6 @@
 		      },
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
-		      },
-		      'footer': {
-		        templateUrl: '../views/partials/footer.html',
 		      },
 		  },
 	    })
@@ -53,9 +47,6 @@
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
 		      },
-		      'footer': {
-		        templateUrl: '../views/partials/footer.html',
-		      },
 		  },
 	    })
 	    .state('detail', {
@@ -68,9 +59,6 @@
 		      },
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
-		      },
-		      'footer': {
-		        templateUrl: '../views/partials/footer.html',
 		      },
 		  },
 	    });

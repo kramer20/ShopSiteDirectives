@@ -9,25 +9,25 @@ $accent-font:'Delius', cursive;
 	background: lighten(#A3A68B,30);
 }
 
+.headerCol {
+	margin-top:10px;
+}
+
 .header {
 	background-image: url('../images/bobsBike3.png');
 	border-bottom:3px solid $border-color;
 	background-color:lighten(#A3A68B,35);
+	background-position: center;
 }
 
 img.bikeIcon {
-	width:174px;
+	width:184px;
 	border-radius:100px;
-	//display:inline-block;
 	transform:rotate(-22deg);
-	margin-top:10px;
-	//margin-bottom:20px;
 	margin:0 auto;
+	display:block;
 	z-index:1;
-	background-color:lighten(#A3A68B,30)
-
-
-
+	background-color:lighten(#A3A68B,30);
 }
 
 h1 {
@@ -35,10 +35,9 @@ h1 {
 	font-size:80px;
 	text-align:center;
 	color:$main-fontColor;
-	//display:inline;
 	text-align:center;
 	position:relative;
-	margin-top:-118px;
+	margin-top:-135px;
 	z-index:99999;
 
 }
@@ -46,8 +45,13 @@ h1 {
 h2 {
 	font-family: 'Love Ya Like A Sister', cursive;
 	text-align:center;
-	font-size:45px;
+	font-size:20px;
 	color:$main-fontColor;
+}
+
+#circleShape .bikeIcon h2 {
+	 shape-outside:circle();
+
 }
 
 h3 {
@@ -72,7 +76,7 @@ ul.topNav {
 
 			&:hover {
 				color:#C8E010;
-				background-color:lighten(#A3A68B,10);
+				background-color:$main-fontColor;
 				padding:7px;
 				border-radius:2px;
 			}
@@ -105,22 +109,68 @@ p.featuredBikeList {
 	font-size:20px;
 	padding-top: 20px;
 	background-color:lighten(#A3A68B,35);
+	background-position: center;
 	small {
 		font-family: 'Love Ya Like A Sister', cursive;
 		color:#555746;
 		
 	}
-
 }
 
+ul.bottomNav {
+	display:inline-block;
+	li {
+		display:inline-block;
+		a{
+			color: $main-fontColor;
+			text-decoration: none;
+			font-family: $accent-font;
+			font-size: 18px;
+			margin-left: 8px;
+			&:hover {
+				color:#C8E010;
+				background-color:$main-fontColor;
+				padding:5px;
+				border-radius:2px;
+			}
+		}
+	}
+}
+
+.weatherIcons i.fa {
+	color:#E2FF0A;
+	background-color:#555746;
+	padding:2px;
+	border-radius:4px;
+}
+
+h5 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size:24px;
+	color:$main-fontColor;
+	margin:0;
+}
+
+ul.weatherInfo {
+	display:inline-block;
+	padding-left:0;
+	li {
+		display:inline-block;
+		font-family: $accent-font;
+		font-size: 15px;
+		color:$main-fontColor;
+
+	}
+}
+
+
+
 input {
-	max-width:400px;
+	max-width:350px;
 	font-family:$accent-font;
-	float:right;
+	float:left;
+	margin-left:250px;
 	
 }
 
-span {
-	float:right;
-}
 

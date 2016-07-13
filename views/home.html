@@ -2,7 +2,7 @@
 	<h3>This Weeks Featured Bike</h3>
 		<div>
 				<img class="featuredBike" ng-src="{{controller.data.image}}">
-				<p class="featuredBikeList">{{controller.data.name}}</p>
+				<p><a class="detailLink" href="#/detail/{{controller.data.id}}">{{controller.data.name}}</a></p>
 				<p class="featuredBikeList">{{controller.data.price | currency}}</p>
 			
 		</div>

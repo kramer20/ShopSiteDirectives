@@ -34,6 +34,22 @@
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
 		      },
+		      'search': {
+		        templateUrl: '../views/partials/search.html',
+		      },
+		  },
+	    })
+	    .state('categoryList', {
+      	url: '/category/:catid',
+      	views: {
+      		'main': {
+		        templateUrl: '../views/list.html',
+		        controller: 'CategoryListController',
+		        controllerAs: 'controller'
+		      },
+		      'nav': {
+		        templateUrl: '../views/partials/nav.html',
+		      },
 		  },
 	    })
 	    .state('list', {
@@ -47,10 +63,13 @@
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
 		      },
+		      'search': {
+		        templateUrl: '../views/partials/search.html',
+		      },
 		  },
 	    })
 	    .state('detail', {
-      	url: '/detail',
+      	url: '/detail/:item',
       	views: {
       		'main': {
 		        templateUrl: '../views/detail.html',
@@ -59,6 +78,9 @@
 		      },
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
+		      },
+		      'search': {
+		        templateUrl: '../views/partials/search.html',
 		      },
 		  },
 	    });

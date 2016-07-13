@@ -1,6 +1,6 @@
 <h2>Which Bike do YOU Like</h2>
 <div class="row">
 	<div class="col-md-4 category"  ng-repeat="bike in controller.data">
-			<p><a class="listLink" ui-sref='list'>{{bike.name}}</a></p>
+			<p><a class="listLink" href="#/category/{{bike.category}}">{{bike.name}}</a></p>
 	</div>
 </div>

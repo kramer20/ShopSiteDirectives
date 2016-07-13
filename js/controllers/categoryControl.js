@@ -9,14 +9,17 @@
 
 		var category = {
        	name: "Dirt Bikes",
+        category:1
        }
 
        var category2 = {
        	name:"Mountain Bikes",
+        category:2
        }
 
        var category3 = {
-       	name:"City Bikes"
+       	name:"City Bikes",
+        category:3
        }
 
        vm.data = [category,category2,category3];

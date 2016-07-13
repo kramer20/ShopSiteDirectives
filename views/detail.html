@@ -1,9 +1,11 @@
 <h2>More Information</h2>
 <div class="row">
-	<div class="col-md-6 list">
-		<ul class="detailsList">
-			<li class="detailItem">{{detail.data.price | currency}}</li>
-			<li class="detailItem">{{detail.data.description}}</li>
-		</ul>	
+	<div class="col-md-12 list">
+		
+			<img class="featuredBike" ng-src="{{controller.item.image}}">
+			<h2>{{controller.item.name}}</h2>
+			<p class="detailItem">{{controller.item.price | currency}}</p>
+			<p class="detailItem">{{controller.item.description}}</p>
+			
 	</div>
 </div>

@@ -4,16 +4,15 @@
     angular
     .module('shopSite')
     //function to create new item and push to list
-    .controller('MainController', function bikeItem() {
+    .controller('MainController', function bikeItem(API) {
        var vm = this;
 
-       var bike = {
-       	name: "The Dirt Master",
-       	price:45,
-        image: "http://www.minipocketrockets.com/products/mini-dirt-bikes.jpg"
-       }
+       var data = API.getBikes();
 
-       vm.data = bike;
-      
-    })
+       var random = Math.floor(Math.random() * data.length);
+
+       vm.data = data[random];
+       console.log(vm.data);
+
+       })
 })();

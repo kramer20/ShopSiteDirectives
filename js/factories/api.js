@@ -13,7 +13,7 @@
 		        description:"Cycle ipsum dolor amet bmx brakes alpe du huez, pedal gear stoked power meter sufferlandria hillclimb specialized. Crank peter sagan IWBMATTKYT, groupset strava bmx shimano roadie tube frame alpe du huez.",
 		       	id:0,
 		        category:3,
-		       }
+		       };
 
 		       var details2 = {
 		        image:"http://www.minipocketrockets.com/products/mini-dirt-bikes.jpg",
@@ -22,7 +22,7 @@
 		        description:"Peter sagan helmet brakes, stem garmin stoked hillclimb gear fork endurance through axle.",
 		       	id:1,
 		        category:1,
-		       }
+		       };
 
 		        var details3 = {
 		        image:"http://thundermountainbikepark.com/wp-content/uploads/2015/03/specialized-dh.jpg",
@@ -31,7 +31,7 @@
 		        description:"Peter sagan shimano stoked pedal strava, gear shuttup legs hillclimb trek IWBMATTKYT cross country downhill. UCI lycra alpe du huez through axle.",
 		       	id:2,
 		        category:2,
-		       }
+		       };
 
 		        var details4 = {
 		        image:"https://momentummag.com/wp-content/uploads/mp-import/5%20City%20Bikes%20Under%20500-StateShorelineDeluxe.jpg",
@@ -40,7 +40,7 @@
 		        description:"Frame groupset pedal shimano UCI hillclimb, sufferfest sufferlandria trek. IWBMATTKYT colnago UCI peter sagan shimano lycra giant groupset.",
 		       	id:3,
 		        category:3,
-		       }
+		       };
 
 		        var details5 = {
 		        image:"http://cloudfront.ojcommerce.com/img/prods/large/r9000_mongoose_impasse_29_mountain_bike.jpg",
@@ -49,7 +49,7 @@
 		        description:"Bmx garmin stem IWBMATTKYT alpe du huez specialized colnago stoked shimano rad sufferfest downhill peter sagan.",
 		       	id:4,
 		        category:2,
-		       }
+		       };
 
 		        var details6 = {
 		        image:"http://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/1390574/honda-crf-150-f-off-road-dirt-bike-2008.jpg?1297194933",
@@ -58,7 +58,7 @@
 		        description:"Aaron gwin sufferlandria peter sagan helmet colnago, rad tube power meter alpe du huez IWBMATTKYT downhill cross country.",
 		       	id:5,
 		        category:1,
-		       }
+		       };
 
 		       var data = [details,details2,details3,details4,details5,details6];
 
@@ -81,6 +81,6 @@
 		 	 	getBikes:getBikes,
 		 	 	getWeather:getWeather,
 
-		 	 }
-		 })	
+		 	 };
+		 })	;
 })();

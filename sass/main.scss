@@ -4,6 +4,7 @@ $accent-font:'Delius', cursive;
 
 @import 'list';
 @import 'category';
+@import 'detail';
 
 .content{
 	background: lighten(#A3A68B,30);
@@ -220,4 +221,8 @@ input {
 	
 }
 
+button {
+	float:right;
+	margin-top:-34px;
+}
 

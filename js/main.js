@@ -50,6 +50,9 @@
 		      'nav': {
 		        templateUrl: '../views/partials/nav.html',
 		      },
+		       'search': {
+		        templateUrl: '../views/partials/search.html',
+		      },
 		  },
 	    })
 	    .state('list', {

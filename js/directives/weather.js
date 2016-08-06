@@ -15,10 +15,10 @@
 
     			data.then(function(response){
     				scope.data = response.data;
-    			})
+    			});
     		}
     	};
 
-    })
+    });
 
 })();    

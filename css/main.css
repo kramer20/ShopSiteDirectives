@@ -16,7 +16,7 @@ a.detailLink {
   a.detailLink:hover {
     color: #A3A68B; }
 
-p {
+p.catList {
   margin-bottom: 30px;
   margin-top: 10px; }
 
@@ -32,6 +32,16 @@ a.listLink {
   color: #555746; }
   a.listLink:hover {
     color: #babca8; }
+
+.detailItem {
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Delius", cursive;
+  color: #555746;
+  width: 400px; }
 
 .content {
   background: #e8e8e2; }
@@ -210,3 +220,7 @@ input {
   font-family: "Delius", cursive;
   float: left;
   margin-left: 250px; }
+
+button {
+  float: right;
+  margin-top: -34px; }

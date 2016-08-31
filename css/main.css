@@ -216,11 +216,7 @@ ul.weatherInfo {
     color: #555746; }
 
 input {
-  max-width: 350px;
+  width: 350px;
   font-family: "Delius", cursive;
-  float: left;
-  margin-left: 250px; }
-
-button {
-  float: right;
-  margin-top: -34px; }
+  float: right !important;
+  width: 50% !important; }

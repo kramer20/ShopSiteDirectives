@@ -214,15 +214,12 @@ ul.weatherInfo {
 
 
 input {
-	max-width:350px;
+	width:350px;
 	font-family:$accent-font;
-	float:left;
-	margin-left:250px;
+	float:right !important;
+	width:50% !important;
 	
 }
 
-button {
-	float:right;
-	margin-top:-34px;
-}
+
 
